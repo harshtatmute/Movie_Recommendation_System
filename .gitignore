@@ -1,0 +1,5 @@
+*.csv
+
+artifacts/similarity.pkl
+
+artifacts/movie_dict.pkl
