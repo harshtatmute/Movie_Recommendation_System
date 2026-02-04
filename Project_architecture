@@ -1,0 +1,23 @@
+1. Dataset Collection.
+
+2. Data Prepration --> (Preprocessing)
+
+3. Building Machine Learning Model. 
+
+4. Creating Web App.
+
+5. Deploying the web app.
+
+
+
+Movie_Recommender_System/
+│
+├── data/
+│   ├── movies.csv
+│   ├── ratings.csv
+│
+├── notebooks/
+│   └── exploration.ipynb
+│
+├── requirements.txt
+└── README.md
