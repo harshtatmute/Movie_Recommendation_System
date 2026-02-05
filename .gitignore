@@ -1,4 +1,12 @@
+# Conda environment (VERY IMPORTANT)
+env/
+
+# ML artifacts
 notebooks/artifacts/
 *.pkl
 *.joblib
 *.h5
+
+# Python cache
+__pycache__/
+*.pyc
