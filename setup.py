@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 REPO_NAME = "Movie_Recommendation_System"
-AUTHOR_USER_NAME = "harshtatmute"   # your GitHub username
+AUTHOR_USER_NAME = "harshtatmute"   
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = [
     "numpy",
