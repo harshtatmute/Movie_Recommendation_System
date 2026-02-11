@@ -15,9 +15,9 @@ ARTIFACT_DIR = BASE_DIR / "artifacts"
 # LOAD DATA
 # =========================
 try:
-    movies_dict = pickle.load(open(ARTIFACT_DIR / "movie_dict.pkl", "rb"))
-    movies = pd.DataFrame(movies_dict)
+    movies = pickle.load(open(ARTIFACT_DIR / "movie_list.pkl", "rb"))
     similarity = pickle.load(open(ARTIFACT_DIR / "similarity.pkl", "rb"))
+
 except Exception:
     st.error("Artifacts not found. Please generate them first.")
     st.stop()

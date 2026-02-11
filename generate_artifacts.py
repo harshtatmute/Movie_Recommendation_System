@@ -11,7 +11,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # -----------------------------
 BASE_DIR = Path(__file__).resolve().parent
 DATA_DIR = BASE_DIR / "data"
-ARTIFACT_DIR = BASE_DIR / "notebooks" / "artifacts"
+ARTIFACT_DIR = BASE_DIR / "artifacts"
 
 ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
 
